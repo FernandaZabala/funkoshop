@@ -303,10 +303,10 @@ header {
   text-transform: uppercase;
 }
 
-.slider__items {
+/*.slider__items {
   display: flex;
   gap: var(--spacing-24);
-}
+}*/
 
 iconify-icon {
   color: var(--dark-bg-solid);
@@ -545,6 +545,7 @@ p {
 .item__info {
   display: flex;
   flex-direction: column;
+  gap:3px;
 }
 
 .item__licence {
@@ -581,11 +582,22 @@ p {
   width: 60%;
 }
 
+
+
 .item__input {
   grid-column: 1/2;
   grid-row: 1/3;
   text-align: center;
   font-size: var(--font-large);
+  color: #747474;
+}
+
+
+
+.item__quantity{
+  display: flex;
+  flex-direction: column;
+  gap:3px;
 }
 
 .item__quantitymas {
@@ -593,6 +605,7 @@ p {
   grid-row: 1/2;
   background-color: var(--dark-900);
   color: var(--light-font-solid);
+  
 }
 
 .item__quantitymenos {
@@ -609,6 +622,7 @@ p {
   color: var(--light-font-solid);
   font-size: var(--font-xsmall);
 }
+
 
 .item__promo {
   color: var(--secondary-solid);
